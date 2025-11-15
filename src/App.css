@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.counterButton{
+  background-color: rgb(67, 67, 163);
+}
+.buttonGroup{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
