@@ -6,10 +6,10 @@ function ChildComponent({ count }: iChildComponent) {
   useEffect(() => {
     console.log("Child component re-rendered");
   });
-  const square=()=>{
-    console.log("Square function called")
-    return count*count
-  }
+  const square = () => {
+    console.log("Square function called");
+    return count * count;
+  };
   return (
     <h3>
       Child Component
