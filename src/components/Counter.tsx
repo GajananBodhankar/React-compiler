@@ -23,9 +23,11 @@ function ChildComponent({ count }: iChildComponent) {
 function Counter() {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
+
   useEffect(() => {
     console.log("Counter re-rendered");
   });
+  
   const handleIncrease1 = () => {
     setCount1((prev) => prev + 1);
   };
